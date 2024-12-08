@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+}
+
+.card {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 20px;
+  z-index: 10;
+  box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.075), 0 0 2px hsl(0deg 0% 0% / 0.075),
+    0 0 4px hsl(0deg 0% 0% / 0.075), 0 0 8px hsl(0deg 0% 0% / 0.075),
+    0 0 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.card-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  position: relative;
+  margin-top: -5vh;
+}
+
+.splash {
+  position: absolute;
+  bottom: -100px;
+  left: -10vw;
+  right: -10vw;
+  top: -10px;
+}
+
+@media (min-width: 620px) {
+  .card-container {
+    margin-bottom: -120px;
+    align-items: center;
+  }
+  .card {
+    width: 25vw;
+    height: 40vh;
+  }
+}
