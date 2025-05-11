@@ -92,10 +92,10 @@ export default function SplashCard({ element }: CardProps) {
     >
       <div className="splash ml-6 mt-8 overflow-visible" style={{ background, clipPath }} />
       <motion.div
-        className="card flex flex-col text-center gap-4 sm:h-[40vh] h-[50vh]"
+        className="card flex flex-col text-center gap-4 sm:h-[60vh] h-[50vh]"
         variants={cardVariants}
       >
-        <div className="w-full h-1/2 w-full h-1/2 flex items-center justify-center absolute top-0">
+        <div className="w-full h-1/2 w-full h-2/3 flex items-center justify-center absolute top-0">
           <Image
             src={element.imageSrc}
             alt={element.altText}
@@ -104,7 +104,7 @@ export default function SplashCard({ element }: CardProps) {
             className="rounded-t-lg"
           />
         </div>
-        <div className="mt-36 sm:mt-32 p-2">
+        <div className="mt-36 sm:mt-64 p-2">
           <h2 className="md:text-xl font-bold">{element.title}</h2>
           <p className="text-sm leading-tight">{element.description}</p>
         </div>

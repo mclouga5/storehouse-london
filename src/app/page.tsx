@@ -65,7 +65,7 @@ export default function Home() {
     },
     {
       id: 2,
-      imageSrc: "/media/volunteers1.jpg",
+      imageSrc: "/media/IMG_5197.JPG",
       altText: "volunteers",
       title: "Reduce Food Waste",
       description: "We connect with shops, such as Tesco and Aldi, and local restaurants who donate food.",
@@ -148,19 +148,27 @@ export default function Home() {
                 Learn More
               </motion.a>
 
-              <motion.a
-                variants={buttonVariants}
-                whileHover="hover"
-                className="p-2 sm:px-6 sm:py-3 bg-[#FCEBB2] rounded-lg font-semibold"
-                href="/contact"
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6, duration: 0.8 }}
-              >
-                Get Involved
-              </motion.a>
+              <div className="relative group inline-block">
+                <motion.a
+                  variants={buttonVariants}
+                  whileHover="hover"
+                  className="p-2 sm:px-6 sm:py-3 bg-[#FCEBB2] rounded-lg font-semibold"
+                  href="/contact"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.6, duration: 0.8 }}
+                >
+                  Get Involved
+                </motion.a>
+
+                {/* Tooltip */}
+                <span className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 w-max max-w-xs bg-gray-700/50 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10">
+                  Just drop us an email!
+                </span>
+              </div>
 
               <motion.a
+                href="https://www.gofundme.com/f/storehouse-summer-gig-and-fundraiser?attribution_id=sl:8781551d-a826-4d06-b2cd-b1b9a609130e&lang=en_GB&ts=1746788115&utm_campaign=fp_sharesheet&utm_content=amp13_t1-amp14_c&utm_medium=customer&utm_source=copy_link&v=amp14_c"
                 variants={buttonVariants}
                 whileHover="hover"
                 className="p-2 sm:px-6 sm:py-3 bg-[#FCEBB2] text-black rounded-lg font-semibold"

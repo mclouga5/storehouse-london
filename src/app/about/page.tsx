@@ -32,7 +32,7 @@ export default function About() {
         <div className="md:px-10 w-1/2">
           <h1 className="text-lg md:text-2xl font-bold mb-4">About Us</h1>
           <p className="md:text-lg">
-            The Storehouse was founded in 2012 by Errol and Patsy Francis. With
+            The Storehouse was founded in 2010 by Errol and Patsy Francis. With
             the help of our many volunteers, we provide food and clothing to our
             Hackney community every Sunday. Together, we collect donations from
             our generous sponsors then organise and distribute the donations to
