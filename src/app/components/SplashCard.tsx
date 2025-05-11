@@ -95,7 +95,7 @@ export default function SplashCard({ element }: CardProps) {
         className="card flex flex-col text-center gap-4 sm:h-[60vh] h-[50vh]"
         variants={cardVariants}
       >
-        <div className="w-full h-1/2 w-full h-2/3 flex items-center justify-center absolute top-0">
+        <div className="w-full h-1/2 w-full sm:h-2/3 flex items-center justify-center absolute top-0">
           <Image
             src={element.imageSrc}
             alt={element.altText}

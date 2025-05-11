@@ -41,17 +41,17 @@ export default function Home() {
     {
       id: 1,
       text: "Amazing community support! I always feel welcomed here.",
-      author: "John Doe",
+      author: "Anonymous",
     },
     {
       id: 2,
       text: "They helped me when I needed it most. So grateful for this initiative!",
-      author: "Jane Smith",
+      author: "Anonymous",
     },
     {
       id: 3,
       text: "The Storehouse has made a significant impact in our community.",
-      author: "Chris Johnson",
+      author: "Anonymous",
     },
   ];
 
