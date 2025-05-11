@@ -30,7 +30,7 @@ export default function About() {
         The Storehouse are pround to host a fundraising event on May 11, 2025, at Kahaila Café on Brick Lane,
         featuring The Storehouse Reggae Gosepl Band to support the homeless and unemployed in the Hackney area. <br /> <br />
         The event offers free admission, Caribbean food and a donation drive via a  <a className="text-blue-500 hover:underline" href="https://gofund.me/6f5319e1">GoFundMe</a> drive,
-        aligning with Storehouse London's 15-year mission to combat poverty, as highlighted by their social media and 
+        aligning with Storehouse London&apos;s 15-year mission to combat poverty, as highlighted by their social media and 
         web presence.<br /> <br />
         Kahalia Café, a community hub since 2012, supports Charitable initiatives by hosting events such as this,
         and often donating a portion of proceeds to local causes, as noted on their website.

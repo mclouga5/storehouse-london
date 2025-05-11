@@ -16,7 +16,26 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Storehouse London",
-  description: "Your Hackney foodbank",
+  description: "Your Hackney foodbank supporting the local community.",
+  keywords: ["foodbank", "Hackney", "London", "Storehouse", "charity", "community support"],
+  authors: [{ name: "Storehouse London", url: "https://storehouse-london.vercel.app/" }],
+  creator: "Storehouse London",
+  openGraph: {
+    title: "Storehouse London",
+    description: "Your Hackney foodbank supporting the local community.",
+    url: "https://storehouse-london.vercel.app/",
+    siteName: "Storehouse London",
+    images: [
+      {
+        url: "/media/storehouseLogo.png", // use absolute URL for better OG
+        width: 800,
+        height: 600,
+        alt: "Storehouse London logo",
+      },
+    ],
+    locale: "en_GB",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
